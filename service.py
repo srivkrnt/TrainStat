@@ -12,9 +12,9 @@ stations = []
 
 def send(msg, mobile_no):
 	# Your Account SID from twilio.com/console
-	account_sid = "YOUR ACCOUNT ID HERE"
+	account_sid = "SID HERE"
 	# Your Auth Token from twilio.com/console
-	auth_token  = "YOUR TOKEN HERE"
+	auth_token  = "AUTH TOKEN HERE"
 
 	client = Client(account_sid, auth_token)
 
