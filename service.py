@@ -40,7 +40,8 @@ def list_stations(soup):
 				stations.append(str(name.get_text()))
 			index+=1
 
-global copy_stations = stations
+global copy_stations
+copy_stations = stations
 
 def check_status(train_no, destination, mobile_no):
 	global prev_station
@@ -63,7 +64,7 @@ def check_status(train_no, destination, mobile_no):
 		send("You have reached your destination, Thanks for using this service",mobile_no)
         elif destination not in station:
                 print 'station not in route'
-                break
+                exit()
 	elif cur_station!=prev_station:
 		stations = stations[stations.index(cur_station)+1::]
 		send(train_details, mobile_no)
