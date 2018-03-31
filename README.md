@@ -1,4 +1,4 @@
-# TrainStat
+# TrainStat (Py)
 
 This is a python based project that tracks the current status of a train by using it's train number and according to user's destination station , SMS is sent to the mobile of the user to keep the user updated about the current running status .
 
