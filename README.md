@@ -2,6 +2,10 @@
 
 This is a python based project that tracks the current status of a train by using it's train number and according to user's destination station , SMS is sent to the mobile of the user to keep the user updated about the current running status .
 
+<br>
+<br>
+
+![Alt text](./screenshot.png?raw=true "TrainStat")  <br />
 Dependencies: <br>
   1 - BeautifulSoup <br>
   2 - Tkinter <br>
