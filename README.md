@@ -5,7 +5,7 @@ This is a python based project that tracks the current status of a train by usin
 <br>
 <br>
 
-![Alt text](./screenshot.png?raw=true "TrainStat")  <br />
+![Alt text](./Screenshot.png?raw=true "TrainStat")  <br />
 Dependencies: <br>
   1 - BeautifulSoup <br>
   2 - Tkinter <br>
