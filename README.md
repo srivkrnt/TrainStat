@@ -14,7 +14,7 @@ Dependencies: <br>
   
 Try running the project and then install the dependencies based on the requirements . 
 
-$ sudo pip install "library" (Without quotes)
-  
+```$ sudo pip install "library" (Without quotes)```
+
 Create an account on the Twilio API and use the authentication key and account SID provided by twilio in the services.py file to get the code working , The services.py file can also be used independently without the GUI by passing required parameters to the function in services.py file .
 
