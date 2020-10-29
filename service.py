@@ -3,7 +3,6 @@ import requests
 from twilio.rest import Client
 import time
 
-
 global prev_station
 global stations
 
